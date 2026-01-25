@@ -1,0 +1,22 @@
+{
+  "name": "backendbasics",
+  "version": "1.0.0",
+  "description": "basic learning for backend",
+  "license": "ISC",
+  "author": "Priyanshu",
+  "type": "module",
+  "main": "Backend/src/index.js",
+  "scripts": {
+    "start": "node Backend/src/index.js",
+    "dev": "nodemon Backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongoose": "^9.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
