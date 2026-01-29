@@ -3,6 +3,7 @@ import { createPost, getPost, updatePost, deletePost} from '../controllers/post.
 
 const router = Router();
 
+//crud APIs urls
 router.route('/create').post(createPost);
 router.route('/getPost').get(getPost);
 router.route('/update/:id').patch(updatePost);
